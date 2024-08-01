@@ -1,9 +1,9 @@
 // import initMenu from './module/menu.js';
 import initScrollSuave from './module/scroll-suave.js';
 import initTypeWriter from './module/writer.js';
-import { SlideNav} from './module/slide.js';
+// import { SlideNav} from './module/slide.js';
 import shareAction from "./module/shareAction.js";
-import initGitInfo from './module/gitInfo.js';
+// import initGitInfo from './module/gitInfo.js';
 import { detectScroll } from './module/detectScroll.js';
 import debounce from './module/debounce.js';
 // import createSection from './module/createSection.js'
@@ -18,9 +18,9 @@ initScrollSuave();
 // slide.activePrevSlide()
 // slide.addArrow('.prev', '.next')
 
-const jorge = document.querySelector('[data-anime="titulo"]');
+const code = document.querySelector('[data-anime="titulo"]');
 
-initTypeWriter(jorge);
+initTypeWriter(code);
 
 // const now = new Date;
 // const year = document.getElementById("year");
