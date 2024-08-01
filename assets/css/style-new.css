@@ -1,0 +1,29 @@
+
+.container-navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-transparent{
+    padding-block: 0.7rem;
+    padding-inline: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    transition: all 2s;
+    /* background: border-box; */
+    background: border-box;
+}
+.back--border-box{
+    background-color: #000000;
+}
+.h-control{
+    height: 20rem;
+}
+.icon-link img{
+    width: 30%;
+    height: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: difference;
+}

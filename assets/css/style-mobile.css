@@ -1,0 +1,17 @@
+/* @media (max-width: 768px) {
+    .h-control{
+        height: 30rem;
+    }
+} */
+@media (max-width:990px) {
+    .h-control{
+        height: 30rem;
+    }
+    .icon-link img{
+        width: 18%;
+        height: 73%;
+    }
+    .title-h1{
+        line-height: 3rem;
+    }
+}
