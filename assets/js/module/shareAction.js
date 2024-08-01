@@ -3,10 +3,10 @@ export default function shareAction(){
 
     // const imageBlob = fetch('https://jorgefsdeveloper.bucardcode.com.br/assets/img/Jorge_Nunes-dev.jpeg').then(response => response.blob());
     const data = {
-            url: 'https://jorgefsdeveloper.bucardcode.com.br/',
-            text: ' Confira meu portfólio com projetos! ',
-            title: 'Jorge Nunes | Desenvolvimento fullstack',
-            imageUrl:'https://jorgefsdeveloper.bucardcode.com.br/assets/img/Jorge_Nunes-dev.jpeg'
+            url: 'https://bucardcode.com.br/',
+            text: ' Encontrei seu site na web! ',
+            title: 'Bucard Code | Tecnologia com Humanidade',
+            imageUrl:'https://bucardcode.com.br/assets/img/icones/shout.png'
             // files: [imageBlob],
             // date: '2024-02-23',
             // type: 'image/jpeg',
