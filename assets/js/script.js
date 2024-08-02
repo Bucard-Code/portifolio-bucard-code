@@ -4,8 +4,8 @@ import initTypeWriter from './module/writer.js';
 // import { SlideNav} from './module/slide.js';
 import shareAction from "./module/shareAction.js";
 // import initGitInfo from './module/gitInfo.js';
-import { detectScroll } from './module/detectScroll.js';
-import debounce from './module/debounce.js';
+// import { detectScroll } from './module/detectScroll.js';
+// import debounce from './module/debounce.js';
 // import createSection from './module/createSection.js'
 
 // initMenu();
@@ -27,9 +27,9 @@ initTypeWriter(code);
 // year.innerText = "Jorge Nunes - " + now.getFullYear() ;
 
 
-const detecto  = new detectScroll('.navbar-transparent')
-debounce(
-window.addEventListener("scroll", function() {
-   detecto.init()
+// const detecto  = new detectScroll('.navbar-transparent')
+// debounce(
+// window.addEventListener("scroll", function() {
+//    detecto.init()
     
-}), 1000)
+// }), 1000)

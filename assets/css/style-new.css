@@ -11,8 +11,8 @@
     margin: 1rem;
     border-radius: 1rem;
     transition: all 2s;
-    /* background: border-box; */
     background: border-box;
+    background-color: #000000a9;
 }
 .back--border-box{
     background-color: #000000;
@@ -26,4 +26,7 @@
     aspect-ratio: 3/2;
     object-fit: contain;
     mix-blend-mode: difference;
+}
+.brand-footer{
+    width: 25% !important;
 }
