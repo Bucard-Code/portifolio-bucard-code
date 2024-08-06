@@ -307,3 +307,13 @@ ul.slide{
 
 
 } */
+.contact-icon{
+    width: 1rem;
+    height: 1rem;
+    margin: auto;
+    vertical-align: baseline;
+}
+.contanier-contact{
+    margin-left: auto;
+    align-items: center;
+}

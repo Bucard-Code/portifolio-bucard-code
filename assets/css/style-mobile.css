@@ -5,8 +5,11 @@
 } */
 @media (max-width:990px) {
     .h-control{
-        height: 31rem;
+        height: 30rem;
         margin-right: 1rem;
+    }
+    .dfs{
+        font-size: 3.4rem !important;
     }
     .icon-link img{
         width: 18%;
