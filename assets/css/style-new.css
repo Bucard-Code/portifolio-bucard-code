@@ -117,3 +117,6 @@
     border-radius: 1.3rem;
     box-shadow: -10px 10px 5px 0px #fff ;
 }
+.text-md-center{
+    text-align: center;
+}
