@@ -1,7 +1,7 @@
 // import initMenu from './module/menu.js';
 import initScrollSuave from './module/scroll-suave.js';
 import initTypeWriter from './module/writer.js';
-// import { SlideNav} from './module/slide.js';
+import { SlideNav} from './module/slide.js';
 import shareAction from "./module/shareAction.js";
 // import initGitInfo from './module/gitInfo.js';
 // import { detectScroll } from './module/detectScroll.js';
@@ -12,11 +12,11 @@ import shareAction from "./module/shareAction.js";
 shareAction();
 initScrollSuave();
 // initGitInfo();
-// const slide = new SlideNav('.slide', '.wrapper');
-// slide.init()
+const slide = new SlideNav('.slide', '.wrapper');
+slide.init()
 
-// slide.activePrevSlide()
-// slide.addArrow('.prev', '.next')
+slide.activePrevSlide()
+slide.addArrow('.prev', '.next')
 
 const code = document.querySelector('[data-anime="titulo"]');
 
